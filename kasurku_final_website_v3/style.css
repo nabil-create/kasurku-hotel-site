@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f6fef6;
+    color: #222;
+}
+header {
+    background-color: #008000;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.hero {
+    padding: 3em;
+    text-align: center;
+    background: url('images/hero.jpg') center/cover no-repeat;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+.feature, .room-card {
+    background: white;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.feature:hover, .room-card:hover {
+    transform: scale(1.05);
+}
+.feature img, .room-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.room-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+.booking-form {
+    padding: 2em;
+    text-align: center;
+}
+.booking-form form {
+    display: inline-block;
+    text-align: left;
+}
+.about {
+    padding: 2em;
+    text-align: center;
+}
